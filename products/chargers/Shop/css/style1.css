@@ -1,0 +1,102 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+.containers{
+    width: 95%;
+    margin: auto;
+}/*
+.box{
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+}
+.product-design:nth-child(1){
+    border: 2px solid red !important;
+}
+.product-design{
+    box-shadow: -2px -2px #ddd;
+}
+.product-wrapper{
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    box-shadow: 2px 2px #ccc;
+    grid-gap: 2px;
+    background-color: #fff;;
+}
+.product-image{
+    height: 250px;
+    width: 100%;
+}
+.product-wrapper .product-image img{
+    width: 60%;
+    margin: auto;
+    height: 220px;
+    padding: 0px !important;
+}
+.product-wrapper .product-description{
+    text-align: left !important;
+    color: #333;
+    grid-column: 2/4;
+    padding-right: 10px;
+}
+.product-description h4{
+    font-size: 18px;
+    color: #444;
+    padding-top: 10px;
+    margin: 0px !important;
+    padding-top: 10px !important;
+}*/
+a:hover{
+    text-decoration: none;
+}
+.col-sm-3,.col-sm-5,.col-sm-6{
+    padding: 0px;
+}
+.box{
+    margin-left: 25px;
+}
+.product-wrapper{
+    height: 400px;
+    box-shadow: 2px 2px #ccc;
+    background-color: #fff;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    transition: all 0.5s ease-in;
+}
+.product-wrapper:hover{
+    box-shadow: 5px 5px #ddd;
+}
+.product-image{
+    padding-top: 15px;
+    height: 250px !important;
+}
+.product-wrapper .product-image img{
+    margin: auto;
+    height: 220px;
+    padding: 0px !important;
+    width: 200px !important;
+}
+.product-wrapper .product-description{
+    padding-right: 10px;
+    height: 150px !important;
+    display: block;
+    
+}
+.product-wrapper > .product-description > h5{
+    color: rgba(0,0,0,0.7);
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 5px 10px;
+}
+.product-wrapper > button{
+    width: 50%;
+    margin-left: 25%;
+}
+body{
+    display: none;
+}

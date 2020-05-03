@@ -1,0 +1,90 @@
+.blog-section{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fix-navigate{
+    margin-top: 30px;
+    position: fixed;
+    margin-left: 50px;
+    border: 2px solid #2bc;
+    padding: 15px 40px;
+}
+ul li{
+    list-style: circle;
+}
+ul li:first-child{
+    list-style: none;
+}
+ul li h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2bc;
+}
+ul li a{
+    font-size: 18px;
+    line-height: 1.8;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.col-lg-9{
+    padding-right: 50px;
+}
+.blog-section header,
+.blog-section header > h2{
+    margin: 5;
+    text-align: center;
+    font-size: 28px;
+}
+.section{
+    padding: 15px 0px;
+    margin: 10px 0px;
+    border-bottom: 2px solid #2bc;
+}
+.section:last-child{
+    border-bottom: none;
+}
+.row{
+    margin-top: 10px;
+}
+.section-heading  h3{
+    margin: 0;
+}
+.blog-box{
+    padding: 0 !important;
+}
+.box{
+    padding: 10px;
+    border: 2px solid #2bc;
+    height: 520px;
+    margin-left: 15px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+.box  h2{
+    margin: 0;
+    font-size: 24px;
+    height: 60px;
+}
+.box .img{
+    height: 200px;
+    border: 1px solid red;
+    width: 100%;
+}
+.img > img{
+    width: 100%;
+    height: 100%;
+}
+.box p{
+    margin: 5px 0px 15px 0px;
+    font-size: 16px;
+    text-align: justify;
+}
+.box a{
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.box a:hover{
+    border: 1px solid #2bc;
+    background-color: #2bc;
+}

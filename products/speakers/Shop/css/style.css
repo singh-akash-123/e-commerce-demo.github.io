@@ -1,0 +1,83 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+.containers{
+    width: 95%;
+    margin: auto;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.navbar{
+    background-image: none;
+}
+.nav-link{
+    padding: 2px 5px;
+}
+.list-group > h3,
+.list-group > p{
+    font-size: 16px;
+}
+.list-group-item{
+    padding: 5px;
+}
+.list-group-item > label{
+    font-size: 16px;
+}
+.list-group-item > label >  input[type=checkbox]{
+    height: 16px;
+    font-size: 50px;
+}
+.col-sm-3,.col-sm-5,.col-sm-6{
+    padding: 0px;
+}
+.box{
+    margin-left: 25px;
+}
+.product-design{
+    padding: 5px !important;
+}
+.product-wrapper{
+    height: 450px;
+    box-shadow: 2px 2px 5px #ccc;
+    background-color: #fff;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in;
+    border: 1px solid rgba(0,0,0,0.4);
+}
+.product-wrapper:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+}
+.product-image{
+    padding-top: 15px;
+    height: 250px !important;
+}
+.product-wrapper .product-image img{
+    margin: auto;
+    height: 220px;
+    padding: 0px !important;
+    width: 200px !important;
+}
+.product-wrapper .product-description{
+    padding-right: 10px;
+    height: 100px !important;
+    display: block;
+}
+.product-wrapper > .product-description > h5{
+    color: rgba(0,0,0,0.7);
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 5px 10px;
+}
+.product-wrapper > .product-description > h4{
+    font-size: 18px;
+}
+.product-wrapper > button{
+    width: 50%;
+    margin-left: 25%;
+    height: 40px;
+    font-size: 16px;
+}

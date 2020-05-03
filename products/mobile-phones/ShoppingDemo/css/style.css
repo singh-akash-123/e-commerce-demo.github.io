@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+ .slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 160px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 50px 0;
+}
+body{
+    background-color: rgba(245,245,245,1);
+}
+.list{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.list-group-item{
+    background-color: #fff;
+    border: 1px solid rgba(230,230,235);
+}
+.containers{
+    width: 95%;
+    margin: auto;
+}
+.product-wrapper{
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border-bottom: 2px solid #ccc;
+    grid-gap: 2px;
+    margin-left: 25px;
+    background-color: #fff;;
+}
+.product-image{
+    height: 250px;
+    width: 100%;
+}
+.product-wrapper .product-image img{
+    width: 60%;
+    margin: auto;
+    height: 220px;
+    padding: 0px !important;
+}
+.product-wrapper .product-description{
+    grid-column: 2/4;
+    text-align: left !important;
+    color: #333;
+}
+.product-description h4{
+    font-size: 18px;
+    color: #444;
+    padding-top: 10px;
+    margin: 0px !important;
+}
+a:hover{
+    text-decoration: none;
+}

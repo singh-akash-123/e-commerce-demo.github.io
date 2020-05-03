@@ -1,0 +1,24 @@
+.col-md-4 > img{
+    height: 250px;
+    width: 100%;
+}
+.product_name{
+    font-size: 20px;
+}
+.product_price{
+    font-size: 22px;
+}
+.cart-container{
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+.cart-container:hover{
+    transform: scale(1.015);
+}
+h6{
+    font-size: 18px;
+}

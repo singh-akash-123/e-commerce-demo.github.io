@@ -1,0 +1,73 @@
+/*!
+ * Start Bootstrap - Shop Homepage (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+ 
+footer {
+    margin: 50px 0;
+}
+body{
+    background-color: rgba(245,245,245,1);
+    display: none;
+}
+.list{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.list-group-item{
+    background-color: #fff;
+    border: 1px solid rgba(230,230,235);
+}
+.containers{
+    width: 95%;
+    margin: auto;
+}
+a:hover{
+    text-decoration: none;
+}
+.col-sm-3,.col-sm-5,.col-sm-6{
+    padding: 0px;
+}
+.box{
+    margin-left: 25px;
+}
+.product-wrapper{
+    height: 500px;
+    box-shadow: 2px 2px #ccc;
+    background-color: #fff;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    transition: all 0.5s ease-in;
+}
+.product-wrapper:hover{
+    box-shadow: 5px 5px #ddd;
+}
+.product-image{
+    padding-top: 15px;
+    height: 250px !important;
+}
+.product-wrapper .product-image img{
+    margin: auto;
+    height: 220px;
+    padding: 0px !important;
+    width: 200px !important;
+}
+.product-wrapper .product-description{
+    padding-right: 10px;
+    height: 150px !important;
+    display: block;
+    
+}
+.product-wrapper > .product-description > h5{
+    color: rgba(0,0,0,0.7);
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 5px 10px;
+}
+.product-wrapper > button{
+    width: 50%;
+    margin-left: 25%;
+}
